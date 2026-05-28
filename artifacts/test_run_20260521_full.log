@@ -1,0 +1,1320 @@
+============================= test session starts ==============================
+platform darwin -- Python 3.14.3, pytest-9.0.3, pluggy-1.6.0 -- /Users/armangokka/Projects/ITMO/testing/ST_lab3/.venv/bin/python
+cachedir: .pytest_cache
+rootdir: /Users/armangokka/Projects/ITMO/testing/ST_lab3
+configfile: pytest.ini
+testpaths: tests
+plugins: xdist-3.8.0
+collecting ... collected 40 items
+
+tests/test_tutu_use_cases.py::test_tc01_go_to_railway_tickets[chrome] 
+[BROWSER START] browser=chrome | proxy=on
+
+[START] test_tc01_go_to_railway_tickets[chrome] | browser=chrome | proxy=on
+[RESULT] test_tc01_go_to_railway_tickets[chrome] | browser=chrome | PASSED
+PASSED[STOP] test_tc01_go_to_railway_tickets[chrome] | browser=chrome | url=https://www.tutu.ru/
+
+tests/test_tutu_use_cases.py::test_tc02_successful_railway_search[chrome] 
+[START] test_tc02_successful_railway_search[chrome] | browser=chrome | proxy=on
+[RESULT] test_tc02_successful_railway_search[chrome] | browser=chrome | PASSED
+PASSED[STOP] test_tc02_successful_railway_search[chrome] | browser=chrome | url=https://www.tutu.ru/poezda/
+
+tests/test_tutu_use_cases.py::test_tc03_empty_railway_search_validation[chrome] 
+[START] test_tc03_empty_railway_search_validation[chrome] | browser=chrome | proxy=on
+[RESULT] test_tc03_empty_railway_search_validation[chrome] | browser=chrome | PASSED
+PASSED[STOP] test_tc03_empty_railway_search_validation[chrome] | browser=chrome | url=https://www.tutu.ru/poezda/
+
+tests/test_tutu_use_cases.py::test_tc04_bus_search[chrome] 
+[START] test_tc04_bus_search[chrome] | browser=chrome | proxy=on
+[RESULT] test_tc04_bus_search[chrome] | browser=chrome | PASSED
+PASSED[STOP] test_tc04_bus_search[chrome] | browser=chrome | url=https://bus.tutu.ru/
+
+tests/test_tutu_use_cases.py::test_tc05_bus_ticket_refund[chrome] 
+[START] test_tc05_bus_ticket_refund[chrome] | browser=chrome | proxy=on
+[RESULT] test_tc05_bus_ticket_refund[chrome] | browser=chrome | FAILED
+[FAILURE] screenshot=not saved (TimeoutException)
+[FAILURE] url=https://bus.tutu.ru/
+FAILED[STOP] test_tc05_bus_ticket_refund[chrome] | browser=chrome | url=https://bus.tutu.ru/
+
+tests/test_tutu_use_cases.py::test_tc06_go_to_avia_tickets[chrome] 
+[START] test_tc06_go_to_avia_tickets[chrome] | browser=chrome | proxy=on
+[RESULT] test_tc06_go_to_avia_tickets[chrome] | browser=chrome | PASSED
+PASSED[STOP] test_tc06_go_to_avia_tickets[chrome] | browser=chrome | url=https://www.tutu.ru/
+
+tests/test_tutu_use_cases.py::test_tc07_avia_search[chrome] 
+[START] test_tc07_avia_search[chrome] | browser=chrome | proxy=on
+[RESULT] test_tc07_avia_search[chrome] | browser=chrome | PASSED
+PASSED[STOP] test_tc07_avia_search[chrome] | browser=chrome | url=https://avia.tutu.ru/
+
+tests/test_tutu_use_cases.py::test_tc08_suburban_train_search[chrome] 
+[START] test_tc08_suburban_train_search[chrome] | browser=chrome | proxy=on
+[RESULT] test_tc08_suburban_train_search[chrome] | browser=chrome | PASSED
+PASSED[STOP] test_tc08_suburban_train_search[chrome] | browser=chrome | url=https://www.tutu.ru/prigorod/
+
+tests/test_tutu_use_cases.py::test_tc09_hotel_search[chrome] 
+[START] test_tc09_hotel_search[chrome] | browser=chrome | proxy=on
+[RESULT] test_tc09_hotel_search[chrome] | browser=chrome | FAILED
+[FAILURE] screenshot=not saved (InvalidSessionIdException)
+[FAILURE] url=unavailable (InvalidSessionIdException)
+FAILED[STOP] test_tc09_hotel_search[chrome] | browser=chrome | url=unavailable (InvalidSessionIdException)
+
+tests/test_tutu_use_cases.py::test_tc10_results_filter[chrome] 
+[START] test_tc10_results_filter[chrome] | browser=chrome | proxy=on
+[RESULT] test_tc10_results_filter[chrome] | browser=chrome | FAILED
+[FAILURE] screenshot=not saved (InvalidSessionIdException)
+[FAILURE] url=unavailable (InvalidSessionIdException)
+FAILED[STOP] test_tc10_results_filter[chrome] | browser=chrome | url=unavailable (InvalidSessionIdException)
+
+tests/test_tutu_use_cases.py::test_tc11_open_result_card[chrome] 
+[START] test_tc11_open_result_card[chrome] | browser=chrome | proxy=on
+[RESULT] test_tc11_open_result_card[chrome] | browser=chrome | FAILED
+[FAILURE] screenshot=not saved (InvalidSessionIdException)
+[FAILURE] url=unavailable (InvalidSessionIdException)
+FAILED[STOP] test_tc11_open_result_card[chrome] | browser=chrome | url=unavailable (InvalidSessionIdException)
+
+tests/test_tutu_use_cases.py::test_tc12_authorization_form[chrome] 
+[START] test_tc12_authorization_form[chrome] | browser=chrome | proxy=on
+[RESULT] test_tc12_authorization_form[chrome] | browser=chrome | FAILED
+[FAILURE] screenshot=not saved (InvalidSessionIdException)
+[FAILURE] url=unavailable (InvalidSessionIdException)
+FAILED[STOP] test_tc12_authorization_form[chrome] | browser=chrome | url=unavailable (InvalidSessionIdException)
+
+tests/test_tutu_use_cases.py::test_tc13_help_refund_topic[chrome] 
+[START] test_tc13_help_refund_topic[chrome] | browser=chrome | proxy=on
+[RESULT] test_tc13_help_refund_topic[chrome] | browser=chrome | FAILED
+[FAILURE] screenshot=not saved (InvalidSessionIdException)
+[FAILURE] url=unavailable (InvalidSessionIdException)
+FAILED[STOP] test_tc13_help_refund_topic[chrome] | browser=chrome | url=unavailable (InvalidSessionIdException)
+
+tests/test_tutu_use_cases.py::test_tc14_login_invalid_email[chrome] 
+[START] test_tc14_login_invalid_email[chrome] | browser=chrome | proxy=on
+[RESULT] test_tc14_login_invalid_email[chrome] | browser=chrome | FAILED
+[FAILURE] screenshot=not saved (InvalidSessionIdException)
+[FAILURE] url=unavailable (InvalidSessionIdException)
+FAILED[STOP] test_tc14_login_invalid_email[chrome] | browser=chrome | url=unavailable (InvalidSessionIdException)
+
+tests/test_tutu_use_cases.py::test_tc15_login_nonexistent_user[chrome] 
+[START] test_tc15_login_nonexistent_user[chrome] | browser=chrome | proxy=on
+[RESULT] test_tc15_login_nonexistent_user[chrome] | browser=chrome | FAILED
+[FAILURE] screenshot=not saved (InvalidSessionIdException)
+[FAILURE] url=unavailable (InvalidSessionIdException)
+FAILED[STOP] test_tc15_login_nonexistent_user[chrome] | browser=chrome | url=unavailable (InvalidSessionIdException)
+
+tests/test_tutu_use_cases.py::test_tc16_login_wrong_password[chrome] 
+[START] test_tc16_login_wrong_password[chrome] | browser=chrome | proxy=on
+[RESULT] test_tc16_login_wrong_password[chrome] | browser=chrome | FAILED
+[FAILURE] screenshot=not saved (InvalidSessionIdException)
+[FAILURE] url=unavailable (InvalidSessionIdException)
+FAILED[STOP] test_tc16_login_wrong_password[chrome] | browser=chrome | url=unavailable (InvalidSessionIdException)
+
+tests/test_tutu_use_cases.py::test_tc17_login_short_password[chrome] 
+[START] test_tc17_login_short_password[chrome] | browser=chrome | proxy=on
+[RESULT] test_tc17_login_short_password[chrome] | browser=chrome | FAILED
+[FAILURE] screenshot=not saved (InvalidSessionIdException)
+[FAILURE] url=unavailable (InvalidSessionIdException)
+FAILED[STOP] test_tc17_login_short_password[chrome] | browser=chrome | url=unavailable (InvalidSessionIdException)
+
+tests/test_tutu_use_cases.py::test_tc18_registration_invalid_email[chrome] 
+[START] test_tc18_registration_invalid_email[chrome] | browser=chrome | proxy=on
+[RESULT] test_tc18_registration_invalid_email[chrome] | browser=chrome | FAILED
+[FAILURE] screenshot=not saved (InvalidSessionIdException)
+[FAILURE] url=unavailable (InvalidSessionIdException)
+FAILED[STOP] test_tc18_registration_invalid_email[chrome] | browser=chrome | url=unavailable (InvalidSessionIdException)
+
+tests/test_tutu_use_cases.py::test_tc19_choose_railway_ticket[chrome] 
+[START] test_tc19_choose_railway_ticket[chrome] | browser=chrome | proxy=on
+[RESULT] test_tc19_choose_railway_ticket[chrome] | browser=chrome | FAILED
+[FAILURE] screenshot=not saved (InvalidSessionIdException)
+[FAILURE] url=unavailable (InvalidSessionIdException)
+FAILED[STOP] test_tc19_choose_railway_ticket[chrome] | browser=chrome | url=unavailable (InvalidSessionIdException)
+
+tests/test_tutu_use_cases.py::test_tc20_successful_authorization[chrome] 
+[START] test_tc20_successful_authorization[chrome] | browser=chrome | proxy=on
+[RESULT] test_tc20_successful_authorization[chrome] | browser=chrome | FAILED
+[FAILURE] screenshot=not saved (InvalidSessionIdException)
+[FAILURE] url=unavailable (InvalidSessionIdException)
+FAILED[STOP] test_tc20_successful_authorization[chrome] | browser=chrome | url=unavailable (InvalidSessionIdException)
+
+tests/test_tutu_use_cases.py::test_tc01_go_to_railway_tickets[firefox] [BROWSER STOP] browser=chrome | url=unavailable (InvalidSessionIdException)
+
+[BROWSER START] browser=firefox | proxy=on
+
+[START] test_tc01_go_to_railway_tickets[firefox] | browser=firefox | proxy=on
+[RESULT] test_tc01_go_to_railway_tickets[firefox] | browser=firefox | FAILED
+[FAILURE] screenshot=artifacts/screenshots/20260521_164918_firefox_test_tc01_go_to_railway_tickets[firefox].png
+[FAILURE] url=https://www.tutu.ru/
+FAILED[STOP] test_tc01_go_to_railway_tickets[firefox] | browser=firefox | url=https://www.tutu.ru/
+
+tests/test_tutu_use_cases.py::test_tc02_successful_railway_search[firefox] 
+[START] test_tc02_successful_railway_search[firefox] | browser=firefox | proxy=on
+[RESULT] test_tc02_successful_railway_search[firefox] | browser=firefox | PASSED
+PASSED[STOP] test_tc02_successful_railway_search[firefox] | browser=firefox | url=https://www.tutu.ru/poezda/
+
+tests/test_tutu_use_cases.py::test_tc03_empty_railway_search_validation[firefox] 
+[START] test_tc03_empty_railway_search_validation[firefox] | browser=firefox | proxy=on
+[RESULT] test_tc03_empty_railway_search_validation[firefox] | browser=firefox | PASSED
+PASSED[STOP] test_tc03_empty_railway_search_validation[firefox] | browser=firefox | url=https://www.tutu.ru/poezda/
+
+tests/test_tutu_use_cases.py::test_tc04_bus_search[firefox] 
+[START] test_tc04_bus_search[firefox] | browser=firefox | proxy=on
+[RESULT] test_tc04_bus_search[firefox] | browser=firefox | PASSED
+PASSED[STOP] test_tc04_bus_search[firefox] | browser=firefox | url=https://bus.tutu.ru/
+
+tests/test_tutu_use_cases.py::test_tc05_bus_ticket_refund[firefox] 
+[START] test_tc05_bus_ticket_refund[firefox] | browser=firefox | proxy=on
+[RESULT] test_tc05_bus_ticket_refund[firefox] | browser=firefox | FAILED
+[FAILURE] screenshot=artifacts/screenshots/20260521_165528_firefox_test_tc05_bus_ticket_refund[firefox].png
+[FAILURE] url=https://bus.tutu.ru/
+FAILED[STOP] test_tc05_bus_ticket_refund[firefox] | browser=firefox | url=https://bus.tutu.ru/
+
+tests/test_tutu_use_cases.py::test_tc06_go_to_avia_tickets[firefox] 
+[START] test_tc06_go_to_avia_tickets[firefox] | browser=firefox | proxy=on
+[RESULT] test_tc06_go_to_avia_tickets[firefox] | browser=firefox | PASSED
+PASSED[STOP] test_tc06_go_to_avia_tickets[firefox] | browser=firefox | url=https://www.tutu.ru/
+
+tests/test_tutu_use_cases.py::test_tc07_avia_search[firefox] 
+[START] test_tc07_avia_search[firefox] | browser=firefox | proxy=on
+[RESULT] test_tc07_avia_search[firefox] | browser=firefox | FAILED
+[FAILURE] screenshot=artifacts/screenshots/20260521_165529_firefox_test_tc07_avia_search[firefox].png
+[FAILURE] url=https://avia.tutu.ru/
+FAILED[STOP] test_tc07_avia_search[firefox] | browser=firefox | url=https://avia.tutu.ru/
+
+tests/test_tutu_use_cases.py::test_tc08_suburban_train_search[firefox] 
+[START] test_tc08_suburban_train_search[firefox] | browser=firefox | proxy=on
+[RESULT] test_tc08_suburban_train_search[firefox] | browser=firefox | FAILED
+[FAILURE] screenshot=artifacts/screenshots/20260521_165529_firefox_test_tc08_suburban_train_search[firefox].png
+[FAILURE] url=https://www.tutu.ru/prigorod/
+FAILED[STOP] test_tc08_suburban_train_search[firefox] | browser=firefox | url=https://www.tutu.ru/prigorod/
+
+tests/test_tutu_use_cases.py::test_tc09_hotel_search[firefox] 
+[START] test_tc09_hotel_search[firefox] | browser=firefox | proxy=on
+[RESULT] test_tc09_hotel_search[firefox] | browser=firefox | PASSED
+PASSED[STOP] test_tc09_hotel_search[firefox] | browser=firefox | url=https://www.tutu.ru/
+
+tests/test_tutu_use_cases.py::test_tc10_results_filter[firefox] 
+[START] test_tc10_results_filter[firefox] | browser=firefox | proxy=on
+[RESULT] test_tc10_results_filter[firefox] | browser=firefox | PASSED
+PASSED[STOP] test_tc10_results_filter[firefox] | browser=firefox | url=https://www.tutu.ru/
+
+tests/test_tutu_use_cases.py::test_tc11_open_result_card[firefox] 
+[START] test_tc11_open_result_card[firefox] | browser=firefox | proxy=on
+[RESULT] test_tc11_open_result_card[firefox] | browser=firefox | PASSED
+PASSED[STOP] test_tc11_open_result_card[firefox] | browser=firefox | url=https://www.tutu.ru/
+
+tests/test_tutu_use_cases.py::test_tc12_authorization_form[firefox] 
+[START] test_tc12_authorization_form[firefox] | browser=firefox | proxy=on
+[RESULT] test_tc12_authorization_form[firefox] | browser=firefox | PASSED
+PASSED[STOP] test_tc12_authorization_form[firefox] | browser=firefox | url=https://www.tutu.ru/
+
+tests/test_tutu_use_cases.py::test_tc13_help_refund_topic[firefox] 
+[START] test_tc13_help_refund_topic[firefox] | browser=firefox | proxy=on
+[RESULT] test_tc13_help_refund_topic[firefox] | browser=firefox | FAILED
+[FAILURE] screenshot=artifacts/screenshots/20260521_170346_firefox_test_tc13_help_refund_topic[firefox].png
+[FAILURE] url=https://www.tutu.ru/2read/
+FAILED[STOP] test_tc13_help_refund_topic[firefox] | browser=firefox | url=https://www.tutu.ru/2read/
+
+tests/test_tutu_use_cases.py::test_tc14_login_invalid_email[firefox] 
+[START] test_tc14_login_invalid_email[firefox] | browser=firefox | proxy=on
+[RESULT] test_tc14_login_invalid_email[firefox] | browser=firefox | FAILED
+[FAILURE] screenshot=artifacts/screenshots/20260521_170347_firefox_test_tc14_login_invalid_email[firefox].png
+[FAILURE] url=https://id.tutu.ru/loginOrRegister?back_url=https%3A%2F%2Fmy.tutu.ru%2F
+FAILED[STOP] test_tc14_login_invalid_email[firefox] | browser=firefox | url=https://id.tutu.ru/loginOrRegister?back_url=https%3A%2F%2Fmy.tutu.ru%2F
+
+tests/test_tutu_use_cases.py::test_tc15_login_nonexistent_user[firefox] 
+[START] test_tc15_login_nonexistent_user[firefox] | browser=firefox | proxy=on
+[RESULT] test_tc15_login_nonexistent_user[firefox] | browser=firefox | FAILED
+[FAILURE] screenshot=artifacts/screenshots/20260521_170347_firefox_test_tc15_login_nonexistent_user[firefox].png
+[FAILURE] url=https://id.tutu.ru/loginOrRegister?back_url=https%3A%2F%2Fmy.tutu.ru%2F
+FAILED[STOP] test_tc15_login_nonexistent_user[firefox] | browser=firefox | url=https://id.tutu.ru/loginOrRegister?back_url=https%3A%2F%2Fmy.tutu.ru%2F
+
+tests/test_tutu_use_cases.py::test_tc16_login_wrong_password[firefox] 
+[START] test_tc16_login_wrong_password[firefox] | browser=firefox | proxy=on
+[RESULT] test_tc16_login_wrong_password[firefox] | browser=firefox | FAILED
+[FAILURE] screenshot=artifacts/screenshots/20260521_170347_firefox_test_tc16_login_wrong_password[firefox].png
+[FAILURE] url=https://id.tutu.ru/loginOrRegister?back_url=https%3A%2F%2Fmy.tutu.ru%2F
+FAILED[STOP] test_tc16_login_wrong_password[firefox] | browser=firefox | url=https://id.tutu.ru/loginOrRegister?back_url=https%3A%2F%2Fmy.tutu.ru%2F
+
+tests/test_tutu_use_cases.py::test_tc17_login_short_password[firefox] 
+[START] test_tc17_login_short_password[firefox] | browser=firefox | proxy=on
+[RESULT] test_tc17_login_short_password[firefox] | browser=firefox | FAILED
+[FAILURE] screenshot=artifacts/screenshots/20260521_170347_firefox_test_tc17_login_short_password[firefox].png
+[FAILURE] url=https://id.tutu.ru/loginOrRegister?back_url=https%3A%2F%2Fmy.tutu.ru%2F
+FAILED[STOP] test_tc17_login_short_password[firefox] | browser=firefox | url=https://id.tutu.ru/loginOrRegister?back_url=https%3A%2F%2Fmy.tutu.ru%2F
+
+tests/test_tutu_use_cases.py::test_tc18_registration_invalid_email[firefox] 
+[START] test_tc18_registration_invalid_email[firefox] | browser=firefox | proxy=on
+[RESULT] test_tc18_registration_invalid_email[firefox] | browser=firefox | FAILED
+[FAILURE] screenshot=artifacts/screenshots/20260521_170347_firefox_test_tc18_registration_invalid_email[firefox].png
+[FAILURE] url=https://id.tutu.ru/loginOrRegister?back_url=https%3A%2F%2Fmy.tutu.ru%2F
+FAILED[STOP] test_tc18_registration_invalid_email[firefox] | browser=firefox | url=https://id.tutu.ru/loginOrRegister?back_url=https%3A%2F%2Fmy.tutu.ru%2F
+
+tests/test_tutu_use_cases.py::test_tc19_choose_railway_ticket[firefox] 
+[START] test_tc19_choose_railway_ticket[firefox] | browser=firefox | proxy=on
+[RESULT] test_tc19_choose_railway_ticket[firefox] | browser=firefox | FAILED
+[FAILURE] screenshot=artifacts/screenshots/20260521_170347_firefox_test_tc19_choose_railway_ticket[firefox].png
+[FAILURE] url=https://www.tutu.ru/poezda/rasp_d.php?nnst1=2000000&nnst2=2004000
+FAILED[STOP] test_tc19_choose_railway_ticket[firefox] | browser=firefox | url=https://www.tutu.ru/poezda/rasp_d.php?nnst1=2000000&nnst2=2004000
+
+tests/test_tutu_use_cases.py::test_tc20_successful_authorization[firefox] 
+[START] test_tc20_successful_authorization[firefox] | browser=firefox | proxy=on
+[RESULT] test_tc20_successful_authorization[firefox] | browser=firefox | FAILED
+[FAILURE] screenshot=artifacts/screenshots/20260521_170347_firefox_test_tc20_successful_authorization[firefox].png
+[FAILURE] url=https://id.tutu.ru/loginOrRegister?back_url=https%3A%2F%2Fmy.tutu.ru%2F
+FAILED[STOP] test_tc20_successful_authorization[firefox] | browser=firefox | url=https://id.tutu.ru/loginOrRegister?back_url=https%3A%2F%2Fmy.tutu.ru%2F
+[BROWSER STOP] browser=firefox | url=https://id.tutu.ru/loginOrRegister?back_url=https%3A%2F%2Fmy.tutu.ru%2F
+
+
+=================================== FAILURES ===================================
+_____________________ test_tc05_bus_ticket_refund[chrome] ______________________
+tests/test_tutu_use_cases.py:32: in test_tc05_bus_ticket_refund
+    BusPage(driver).open_bus_page().open_refund()
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pages/bus_page.py:19: in open_bus_page
+    self.open("https://bus.tutu.ru/")
+pages/base_page.py:27: in open
+    self.wait_body()
+pages/base_page.py:34: in wait_body
+    self.wait.until(EC.visibility_of_element_located((By.XPATH, "//body")))
+.venv/lib/python3.14/site-packages/selenium/webdriver/support/wait.py:121: in until
+    raise TimeoutException(message, screen, stacktrace)
+E   selenium.common.exceptions.TimeoutException: Message: 
+E   Stacktrace:
+E   0   chromedriver                        0x00000001033e0c40 cxxbridge1$str$ptr + 3221216
+E   1   chromedriver                        0x00000001033d8b1c cxxbridge1$str$ptr + 3188156
+E   2   chromedriver                        0x0000000102e9b8f4 _RNvCsiKAbIcglKMQ_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75152
+E   3   chromedriver                        0x0000000102ee3ff8 _RNvCsiKAbIcglKMQ_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 371860
+E   4   chromedriver                        0x0000000102f236f4 _RNvCsiKAbIcglKMQ_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 631696
+E   5   chromedriver                        0x0000000102ed99c0 _RNvCsiKAbIcglKMQ_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 329308
+E   6   chromedriver                        0x000000010339eb70 cxxbridge1$str$ptr + 2950672
+E   7   chromedriver                        0x00000001033a22c8 cxxbridge1$str$ptr + 2964840
+E   8   chromedriver                        0x00000001033838a8 cxxbridge1$str$ptr + 2839368
+E   9   chromedriver                        0x00000001033a2b48 cxxbridge1$str$ptr + 2967016
+E   10  chromedriver                        0x00000001033743d4 cxxbridge1$str$ptr + 2776692
+E   11  chromedriver                        0x00000001033c77ac cxxbridge1$str$ptr + 3117644
+E   12  chromedriver                        0x00000001033c790c cxxbridge1$str$ptr + 3117996
+E   13  chromedriver                        0x00000001033d8774 cxxbridge1$str$ptr + 3187220
+E   14  libsystem_pthread.dylib             0x000000019f92fc08 _pthread_start + 136
+E   15  libsystem_pthread.dylib             0x000000019f92aba8 thread_start + 8
+________________________ test_tc09_hotel_search[chrome] ________________________
+tests/test_tutu_use_cases.py:48: in test_tc09_hotel_search
+    HotelPage(driver).open_hotels_from_main().search_city("Казань")
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pages/hotel_page.py:19: in open_hotels_from_main
+    self.open_relative("/")
+pages/base_page.py:31: in open_relative
+    return self.open(self.BASE_URL + path)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pages/base_page.py:27: in open
+    self.wait_body()
+pages/base_page.py:34: in wait_body
+    self.wait.until(EC.visibility_of_element_located((By.XPATH, "//body")))
+.venv/lib/python3.14/site-packages/selenium/webdriver/support/wait.py:112: in until
+    value = method(self._driver)
+            ^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/selenium/webdriver/support/expected_conditions.py:184: in _predicate
+    return _element_if_visible(driver.find_element(*locator))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/selenium/webdriver/remote/webdriver.py:868: in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.venv/lib/python3.14/site-packages/selenium/webdriver/remote/webdriver.py:468: in execute
+    self.error_handler.check_response(response)
+.venv/lib/python3.14/site-packages/selenium/webdriver/remote/errorhandler.py:232: in check_response
+    raise exception_class(message, screen, stacktrace)
+E   selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id: session deleted as the browser has closed the connection
+E   from disconnected: Unable to receive message from renderer
+E     (Session info: chrome=148.0.7778.178); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+E   Stacktrace:
+E   0   chromedriver                        0x00000001033e0c40 cxxbridge1$str$ptr + 3221216
+E   1   chromedriver                        0x00000001033d8b1c cxxbridge1$str$ptr + 3188156
+E   2   chromedriver                        0x0000000102e9b8f4 _RNvCsiKAbIcglKMQ_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75152
+E   3   chromedriver                        0x0000000102e85d20 cxxbridge1$string$len + 4096
+E   4   chromedriver                        0x0000000102e85a80 cxxbridge1$string$len + 3424
+E   5   chromedriver                        0x0000000102e8491c chromedriver + 231708
+E   6   chromedriver                        0x0000000102ea7f00 _RNvCsiKAbIcglKMQ_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 125852
+E   7   chromedriver                        0x0000000102f2399c _RNvCsiKAbIcglKMQ_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 632376
+E   8   chromedriver                        0x0000000102ed99c0 _RNvCsiKAbIcglKMQ_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 329308
+E   9   chromedriver                        0x000000010339eb70 cxxbridge1$str$ptr + 2950672
+E   10  chromedriver                        0x00000001033a22c8 cxxbridge1$str$ptr + 2964840
+E   11  chromedriver                        0x00000001033838a8 cxxbridge1$str$ptr + 2839368
+E   12  chromedriver                        0x00000001033a2b48 cxxbridge1$str$ptr + 2967016
+E   13  chromedriver                        0x00000001033743d4 cxxbridge1$str$ptr + 2776692
+E   14  chromedriver                        0x00000001033c77ac cxxbridge1$str$ptr + 3117644
+E   15  chromedriver                        0x00000001033c790c cxxbridge1$str$ptr + 3117996
+E   16  chromedriver                        0x00000001033d8774 cxxbridge1$str$ptr + 3187220
+E   17  libsystem_pthread.dylib             0x000000019f92fc08 _pthread_start + 136
+E   18  libsystem_pthread.dylib             0x000000019f92aba8 thread_start + 8
+_______________________ test_tc10_results_filter[chrome] _______________________
+tests/test_tutu_use_cases.py:52: in test_tc10_results_filter
+    RailwayPage(driver).open_prepared_results_page().apply_filter()
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pages/railway_page.py:38: in open_prepared_results_page
+    self.open_relative("/poezda/rasp_d.php?nnst1=2000000&nnst2=2004000")
+pages/base_page.py:31: in open_relative
+    return self.open(self.BASE_URL + path)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pages/base_page.py:23: in open
+    self.driver.get(url)
+.venv/lib/python3.14/site-packages/selenium/webdriver/remote/webdriver.py:488: in get
+    self.execute(Command.GET, {"url": url})
+.venv/lib/python3.14/site-packages/selenium/webdriver/remote/webdriver.py:468: in execute
+    self.error_handler.check_response(response)
+.venv/lib/python3.14/site-packages/selenium/webdriver/remote/errorhandler.py:232: in check_response
+    raise exception_class(message, screen, stacktrace)
+E   selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+E   Stacktrace:
+E   0   chromedriver                        0x00000001033e0c40 cxxbridge1$str$ptr + 3221216
+E   1   chromedriver                        0x00000001033d8b1c cxxbridge1$str$ptr + 3188156
+E   2   chromedriver                        0x0000000102e9b6f8 _RNvCsiKAbIcglKMQ_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74644
+E   3   chromedriver                        0x0000000102ed8d2c _RNvCsiKAbIcglKMQ_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 326088
+E   4   chromedriver                        0x0000000102eff7ac _RNvCsiKAbIcglKMQ_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 484424
+E   5   chromedriver                        0x0000000102eff094 _RNvCsiKAbIcglKMQ_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 482608
+E   6   chromedriver                        0x0000000102e68abc chromedriver + 117436
+E   7   chromedriver                        0x000000010339eb70 cxxbridge1$str$ptr + 2950672
+E   8   chromedriver                        0x00000001033a22c8 cxxbridge1$str$ptr + 2964840
+E   9   chromedriver                        0x00000001033838a8 cxxbridge1$str$ptr + 2839368
+E   10  chromedriver                        0x00000001033a2b48 cxxbridge1$str$ptr + 2967016
+E   11  chromedriver                        0x00000001033743d4 cxxbridge1$str$ptr + 2776692
+E   12  chromedriver                        0x0000000102e66850 chromedriver + 108624
+E   13  dyld                                0x000000019f565d54 start + 7184
+______________________ test_tc11_open_result_card[chrome] ______________________
+tests/test_tutu_use_cases.py:56: in test_tc11_open_result_card
+    RailwayPage(driver).open_prepared_results_page().open_first_result_card()
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pages/railway_page.py:38: in open_prepared_results_page
+    self.open_relative("/poezda/rasp_d.php?nnst1=2000000&nnst2=2004000")
+pages/base_page.py:31: in open_relative
+    return self.open(self.BASE_URL + path)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pages/base_page.py:23: in open
+    self.driver.get(url)
+.venv/lib/python3.14/site-packages/selenium/webdriver/remote/webdriver.py:488: in get
+    self.execute(Command.GET, {"url": url})
+.venv/lib/python3.14/site-packages/selenium/webdriver/remote/webdriver.py:468: in execute
+    self.error_handler.check_response(response)
+.venv/lib/python3.14/site-packages/selenium/webdriver/remote/errorhandler.py:232: in check_response
+    raise exception_class(message, screen, stacktrace)
+E   selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+E   Stacktrace:
+E   0   chromedriver                        0x00000001033e0c40 cxxbridge1$str$ptr + 3221216
+E   1   chromedriver                        0x00000001033d8b1c cxxbridge1$str$ptr + 3188156
+E   2   chromedriver                        0x0000000102e9b6f8 _RNvCsiKAbIcglKMQ_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74644
+E   3   chromedriver                        0x0000000102ed8d2c _RNvCsiKAbIcglKMQ_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 326088
+E   4   chromedriver                        0x0000000102eff7ac _RNvCsiKAbIcglKMQ_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 484424
+E   5   chromedriver                        0x0000000102eff094 _RNvCsiKAbIcglKMQ_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 482608
+E   6   chromedriver                        0x0000000102e68abc chromedriver + 117436
+E   7   chromedriver                        0x000000010339eb70 cxxbridge1$str$ptr + 2950672
+E   8   chromedriver                        0x00000001033a22c8 cxxbridge1$str$ptr + 2964840
+E   9   chromedriver                        0x00000001033838a8 cxxbridge1$str$ptr + 2839368
+E   10  chromedriver                        0x00000001033a2b48 cxxbridge1$str$ptr + 2967016
+E   11  chromedriver                        0x00000001033743d4 cxxbridge1$str$ptr + 2776692
+E   12  chromedriver                        0x0000000102e66850 chromedriver + 108624
+E   13  dyld                                0x000000019f565d54 start + 7184
+_____________________ test_tc12_authorization_form[chrome] _____________________
+tests/test_tutu_use_cases.py:60: in test_tc12_authorization_form
+    MainPage(driver).open_main().open_login_form()
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pages/main_page.py:29: in open_main
+    self.open_relative("/")
+pages/base_page.py:31: in open_relative
+    return self.open(self.BASE_URL + path)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pages/base_page.py:23: in open
+    self.driver.get(url)
+.venv/lib/python3.14/site-packages/selenium/webdriver/remote/webdriver.py:488: in get
+    self.execute(Command.GET, {"url": url})
+.venv/lib/python3.14/site-packages/selenium/webdriver/remote/webdriver.py:468: in execute
+    self.error_handler.check_response(response)
+.venv/lib/python3.14/site-packages/selenium/webdriver/remote/errorhandler.py:232: in check_response
+    raise exception_class(message, screen, stacktrace)
+E   selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+E   Stacktrace:
+E   0   chromedriver                        0x00000001033e0c40 cxxbridge1$str$ptr + 3221216
+E   1   chromedriver                        0x00000001033d8b1c cxxbridge1$str$ptr + 3188156
+E   2   chromedriver                        0x0000000102e9b6f8 _RNvCsiKAbIcglKMQ_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74644
+E   3   chromedriver                        0x0000000102ed8d2c _RNvCsiKAbIcglKMQ_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 326088
+E   4   chromedriver                        0x0000000102eff7ac _RNvCsiKAbIcglKMQ_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 484424
+E   5   chromedriver                        0x0000000102eff094 _RNvCsiKAbIcglKMQ_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 482608
+E   6   chromedriver                        0x0000000102e68abc chromedriver + 117436
+E   7   chromedriver                        0x000000010339eb70 cxxbridge1$str$ptr + 2950672
+E   8   chromedriver                        0x00000001033a22c8 cxxbridge1$str$ptr + 2964840
+E   9   chromedriver                        0x00000001033838a8 cxxbridge1$str$ptr + 2839368
+E   10  chromedriver                        0x00000001033a2b48 cxxbridge1$str$ptr + 2967016
+E   11  chromedriver                        0x00000001033743d4 cxxbridge1$str$ptr + 2776692
+E   12  chromedriver                        0x0000000102e66850 chromedriver + 108624
+E   13  dyld                                0x000000019f565d54 start + 7184
+_____________________ test_tc13_help_refund_topic[chrome] ______________________
+tests/test_tutu_use_cases.py:64: in test_tc13_help_refund_topic
+    HelpPage(driver).open_help().open_refund_topic()
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pages/help_page.py:13: in open_help
+    self.open_relative("/2read/")
+pages/base_page.py:31: in open_relative
+    return self.open(self.BASE_URL + path)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pages/base_page.py:23: in open
+    self.driver.get(url)
+.venv/lib/python3.14/site-packages/selenium/webdriver/remote/webdriver.py:488: in get
+    self.execute(Command.GET, {"url": url})
+.venv/lib/python3.14/site-packages/selenium/webdriver/remote/webdriver.py:468: in execute
+    self.error_handler.check_response(response)
+.venv/lib/python3.14/site-packages/selenium/webdriver/remote/errorhandler.py:232: in check_response
+    raise exception_class(message, screen, stacktrace)
+E   selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+E   Stacktrace:
+E   0   chromedriver                        0x00000001033e0c40 cxxbridge1$str$ptr + 3221216
+E   1   chromedriver                        0x00000001033d8b1c cxxbridge1$str$ptr + 3188156
+E   2   chromedriver                        0x0000000102e9b6f8 _RNvCsiKAbIcglKMQ_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74644
+E   3   chromedriver                        0x0000000102ed8d2c _RNvCsiKAbIcglKMQ_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 326088
+E   4   chromedriver                        0x0000000102eff7ac _RNvCsiKAbIcglKMQ_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 484424
+E   5   chromedriver                        0x0000000102eff094 _RNvCsiKAbIcglKMQ_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 482608
+E   6   chromedriver                        0x0000000102e68abc chromedriver + 117436
+E   7   chromedriver                        0x000000010339eb70 cxxbridge1$str$ptr + 2950672
+E   8   chromedriver                        0x00000001033a22c8 cxxbridge1$str$ptr + 2964840
+E   9   chromedriver                        0x00000001033838a8 cxxbridge1$str$ptr + 2839368
+E   10  chromedriver                        0x00000001033a2b48 cxxbridge1$str$ptr + 2967016
+E   11  chromedriver                        0x00000001033743d4 cxxbridge1$str$ptr + 2776692
+E   12  chromedriver                        0x0000000102e66850 chromedriver + 108624
+E   13  dyld                                0x000000019f565d54 start + 7184
+____________________ test_tc14_login_invalid_email[chrome] _____________________
+tests/test_tutu_use_cases.py:68: in test_tc14_login_invalid_email
+    AuthPage(driver).invalid_email_validation("not-an-email")
+pages/auth_page.py:102: in invalid_email_validation
+    self.open_login_form()
+pages/auth_page.py:45: in open_login_form
+    self.open(self.URL)
+pages/base_page.py:23: in open
+    self.driver.get(url)
+.venv/lib/python3.14/site-packages/selenium/webdriver/remote/webdriver.py:488: in get
+    self.execute(Command.GET, {"url": url})
+.venv/lib/python3.14/site-packages/selenium/webdriver/remote/webdriver.py:468: in execute
+    self.error_handler.check_response(response)
+.venv/lib/python3.14/site-packages/selenium/webdriver/remote/errorhandler.py:232: in check_response
+    raise exception_class(message, screen, stacktrace)
+E   selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+E   Stacktrace:
+E   0   chromedriver                        0x00000001033e0c40 cxxbridge1$str$ptr + 3221216
+E   1   chromedriver                        0x00000001033d8b1c cxxbridge1$str$ptr + 3188156
+E   2   chromedriver                        0x0000000102e9b6f8 _RNvCsiKAbIcglKMQ_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74644
+E   3   chromedriver                        0x0000000102ed8d2c _RNvCsiKAbIcglKMQ_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 326088
+E   4   chromedriver                        0x0000000102eff7ac _RNvCsiKAbIcglKMQ_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 484424
+E   5   chromedriver                        0x0000000102eff094 _RNvCsiKAbIcglKMQ_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 482608
+E   6   chromedriver                        0x0000000102e68abc chromedriver + 117436
+E   7   chromedriver                        0x000000010339eb70 cxxbridge1$str$ptr + 2950672
+E   8   chromedriver                        0x00000001033a22c8 cxxbridge1$str$ptr + 2964840
+E   9   chromedriver                        0x00000001033838a8 cxxbridge1$str$ptr + 2839368
+E   10  chromedriver                        0x00000001033a2b48 cxxbridge1$str$ptr + 2967016
+E   11  chromedriver                        0x00000001033743d4 cxxbridge1$str$ptr + 2776692
+E   12  chromedriver                        0x0000000102e66850 chromedriver + 108624
+E   13  dyld                                0x000000019f565d54 start + 7184
+___________________ test_tc15_login_nonexistent_user[chrome] ___________________
+tests/test_tutu_use_cases.py:72: in test_tc15_login_nonexistent_user
+    AuthPage(driver).nonexistent_user_validation("missing-user-1230@example.invalid")
+pages/auth_page.py:110: in nonexistent_user_validation
+    self.open_login_form()
+pages/auth_page.py:45: in open_login_form
+    self.open(self.URL)
+pages/base_page.py:23: in open
+    self.driver.get(url)
+.venv/lib/python3.14/site-packages/selenium/webdriver/remote/webdriver.py:488: in get
+    self.execute(Command.GET, {"url": url})
+.venv/lib/python3.14/site-packages/selenium/webdriver/remote/webdriver.py:468: in execute
+    self.error_handler.check_response(response)
+.venv/lib/python3.14/site-packages/selenium/webdriver/remote/errorhandler.py:232: in check_response
+    raise exception_class(message, screen, stacktrace)
+E   selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+E   Stacktrace:
+E   0   chromedriver                        0x00000001033e0c40 cxxbridge1$str$ptr + 3221216
+E   1   chromedriver                        0x00000001033d8b1c cxxbridge1$str$ptr + 3188156
+E   2   chromedriver                        0x0000000102e9b6f8 _RNvCsiKAbIcglKMQ_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74644
+E   3   chromedriver                        0x0000000102ed8d2c _RNvCsiKAbIcglKMQ_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 326088
+E   4   chromedriver                        0x0000000102eff7ac _RNvCsiKAbIcglKMQ_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 484424
+E   5   chromedriver                        0x0000000102eff094 _RNvCsiKAbIcglKMQ_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 482608
+E   6   chromedriver                        0x0000000102e68abc chromedriver + 117436
+E   7   chromedriver                        0x000000010339eb70 cxxbridge1$str$ptr + 2950672
+E   8   chromedriver                        0x00000001033a22c8 cxxbridge1$str$ptr + 2964840
+E   9   chromedriver                        0x00000001033838a8 cxxbridge1$str$ptr + 2839368
+E   10  chromedriver                        0x00000001033a2b48 cxxbridge1$str$ptr + 2967016
+E   11  chromedriver                        0x00000001033743d4 cxxbridge1$str$ptr + 2776692
+E   12  chromedriver                        0x0000000102e66850 chromedriver + 108624
+E   13  dyld                                0x000000019f565d54 start + 7184
+____________________ test_tc16_login_wrong_password[chrome] ____________________
+tests/test_tutu_use_cases.py:76: in test_tc16_login_wrong_password
+    AuthPage(driver).login_with_password("armangokka@gmail.com", "wrong-password-1230").assert_login_failed()
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pages/auth_page.py:82: in login_with_password
+    self.open_login_form(restore_cache=restore_cache)
+pages/auth_page.py:45: in open_login_form
+    self.open(self.URL)
+pages/base_page.py:23: in open
+    self.driver.get(url)
+.venv/lib/python3.14/site-packages/selenium/webdriver/remote/webdriver.py:488: in get
+    self.execute(Command.GET, {"url": url})
+.venv/lib/python3.14/site-packages/selenium/webdriver/remote/webdriver.py:468: in execute
+    self.error_handler.check_response(response)
+.venv/lib/python3.14/site-packages/selenium/webdriver/remote/errorhandler.py:232: in check_response
+    raise exception_class(message, screen, stacktrace)
+E   selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+E   Stacktrace:
+E   0   chromedriver                        0x00000001033e0c40 cxxbridge1$str$ptr + 3221216
+E   1   chromedriver                        0x00000001033d8b1c cxxbridge1$str$ptr + 3188156
+E   2   chromedriver                        0x0000000102e9b6f8 _RNvCsiKAbIcglKMQ_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74644
+E   3   chromedriver                        0x0000000102ed8d2c _RNvCsiKAbIcglKMQ_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 326088
+E   4   chromedriver                        0x0000000102eff7ac _RNvCsiKAbIcglKMQ_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 484424
+E   5   chromedriver                        0x0000000102eff094 _RNvCsiKAbIcglKMQ_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 482608
+E   6   chromedriver                        0x0000000102e68abc chromedriver + 117436
+E   7   chromedriver                        0x000000010339eb70 cxxbridge1$str$ptr + 2950672
+E   8   chromedriver                        0x00000001033a22c8 cxxbridge1$str$ptr + 2964840
+E   9   chromedriver                        0x00000001033838a8 cxxbridge1$str$ptr + 2839368
+E   10  chromedriver                        0x00000001033a2b48 cxxbridge1$str$ptr + 2967016
+E   11  chromedriver                        0x00000001033743d4 cxxbridge1$str$ptr + 2776692
+E   12  chromedriver                        0x0000000102e66850 chromedriver + 108624
+E   13  dyld                                0x000000019f565d54 start + 7184
+____________________ test_tc17_login_short_password[chrome] ____________________
+tests/test_tutu_use_cases.py:80: in test_tc17_login_short_password
+    AuthPage(driver).short_password_validation("armangokka@gmail.com", "123")
+pages/auth_page.py:119: in short_password_validation
+    self.open_login_form()
+pages/auth_page.py:45: in open_login_form
+    self.open(self.URL)
+pages/base_page.py:23: in open
+    self.driver.get(url)
+.venv/lib/python3.14/site-packages/selenium/webdriver/remote/webdriver.py:488: in get
+    self.execute(Command.GET, {"url": url})
+.venv/lib/python3.14/site-packages/selenium/webdriver/remote/webdriver.py:468: in execute
+    self.error_handler.check_response(response)
+.venv/lib/python3.14/site-packages/selenium/webdriver/remote/errorhandler.py:232: in check_response
+    raise exception_class(message, screen, stacktrace)
+E   selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+E   Stacktrace:
+E   0   chromedriver                        0x00000001033e0c40 cxxbridge1$str$ptr + 3221216
+E   1   chromedriver                        0x00000001033d8b1c cxxbridge1$str$ptr + 3188156
+E   2   chromedriver                        0x0000000102e9b6f8 _RNvCsiKAbIcglKMQ_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74644
+E   3   chromedriver                        0x0000000102ed8d2c _RNvCsiKAbIcglKMQ_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 326088
+E   4   chromedriver                        0x0000000102eff7ac _RNvCsiKAbIcglKMQ_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 484424
+E   5   chromedriver                        0x0000000102eff094 _RNvCsiKAbIcglKMQ_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 482608
+E   6   chromedriver                        0x0000000102e68abc chromedriver + 117436
+E   7   chromedriver                        0x000000010339eb70 cxxbridge1$str$ptr + 2950672
+E   8   chromedriver                        0x00000001033a22c8 cxxbridge1$str$ptr + 2964840
+E   9   chromedriver                        0x00000001033838a8 cxxbridge1$str$ptr + 2839368
+E   10  chromedriver                        0x00000001033a2b48 cxxbridge1$str$ptr + 2967016
+E   11  chromedriver                        0x00000001033743d4 cxxbridge1$str$ptr + 2776692
+E   12  chromedriver                        0x0000000102e66850 chromedriver + 108624
+E   13  dyld                                0x000000019f565d54 start + 7184
+_________________ test_tc18_registration_invalid_email[chrome] _________________
+tests/test_tutu_use_cases.py:84: in test_tc18_registration_invalid_email
+    AuthPage(driver).registration_invalid_email_validation("bad-registration-email")
+pages/auth_page.py:130: in registration_invalid_email_validation
+    return self.invalid_email_validation(email)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pages/auth_page.py:102: in invalid_email_validation
+    self.open_login_form()
+pages/auth_page.py:45: in open_login_form
+    self.open(self.URL)
+pages/base_page.py:23: in open
+    self.driver.get(url)
+.venv/lib/python3.14/site-packages/selenium/webdriver/remote/webdriver.py:488: in get
+    self.execute(Command.GET, {"url": url})
+.venv/lib/python3.14/site-packages/selenium/webdriver/remote/webdriver.py:468: in execute
+    self.error_handler.check_response(response)
+.venv/lib/python3.14/site-packages/selenium/webdriver/remote/errorhandler.py:232: in check_response
+    raise exception_class(message, screen, stacktrace)
+E   selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+E   Stacktrace:
+E   0   chromedriver                        0x00000001033e0c40 cxxbridge1$str$ptr + 3221216
+E   1   chromedriver                        0x00000001033d8b1c cxxbridge1$str$ptr + 3188156
+E   2   chromedriver                        0x0000000102e9b6f8 _RNvCsiKAbIcglKMQ_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74644
+E   3   chromedriver                        0x0000000102ed8d2c _RNvCsiKAbIcglKMQ_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 326088
+E   4   chromedriver                        0x0000000102eff7ac _RNvCsiKAbIcglKMQ_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 484424
+E   5   chromedriver                        0x0000000102eff094 _RNvCsiKAbIcglKMQ_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 482608
+E   6   chromedriver                        0x0000000102e68abc chromedriver + 117436
+E   7   chromedriver                        0x000000010339eb70 cxxbridge1$str$ptr + 2950672
+E   8   chromedriver                        0x00000001033a22c8 cxxbridge1$str$ptr + 2964840
+E   9   chromedriver                        0x00000001033838a8 cxxbridge1$str$ptr + 2839368
+E   10  chromedriver                        0x00000001033a2b48 cxxbridge1$str$ptr + 2967016
+E   11  chromedriver                        0x00000001033743d4 cxxbridge1$str$ptr + 2776692
+E   12  chromedriver                        0x0000000102e66850 chromedriver + 108624
+E   13  dyld                                0x000000019f565d54 start + 7184
+___________________ test_tc19_choose_railway_ticket[chrome] ____________________
+tests/test_tutu_use_cases.py:88: in test_tc19_choose_railway_ticket
+    RailwayPage(driver).choose_first_ticket()
+pages/railway_page.py:68: in choose_first_ticket
+    self.open_prepared_results_page()
+pages/railway_page.py:38: in open_prepared_results_page
+    self.open_relative("/poezda/rasp_d.php?nnst1=2000000&nnst2=2004000")
+pages/base_page.py:31: in open_relative
+    return self.open(self.BASE_URL + path)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pages/base_page.py:23: in open
+    self.driver.get(url)
+.venv/lib/python3.14/site-packages/selenium/webdriver/remote/webdriver.py:488: in get
+    self.execute(Command.GET, {"url": url})
+.venv/lib/python3.14/site-packages/selenium/webdriver/remote/webdriver.py:468: in execute
+    self.error_handler.check_response(response)
+.venv/lib/python3.14/site-packages/selenium/webdriver/remote/errorhandler.py:232: in check_response
+    raise exception_class(message, screen, stacktrace)
+E   selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+E   Stacktrace:
+E   0   chromedriver                        0x00000001033e0c40 cxxbridge1$str$ptr + 3221216
+E   1   chromedriver                        0x00000001033d8b1c cxxbridge1$str$ptr + 3188156
+E   2   chromedriver                        0x0000000102e9b6f8 _RNvCsiKAbIcglKMQ_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74644
+E   3   chromedriver                        0x0000000102ed8d2c _RNvCsiKAbIcglKMQ_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 326088
+E   4   chromedriver                        0x0000000102eff7ac _RNvCsiKAbIcglKMQ_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 484424
+E   5   chromedriver                        0x0000000102eff094 _RNvCsiKAbIcglKMQ_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 482608
+E   6   chromedriver                        0x0000000102e68abc chromedriver + 117436
+E   7   chromedriver                        0x000000010339eb70 cxxbridge1$str$ptr + 2950672
+E   8   chromedriver                        0x00000001033a22c8 cxxbridge1$str$ptr + 2964840
+E   9   chromedriver                        0x00000001033838a8 cxxbridge1$str$ptr + 2839368
+E   10  chromedriver                        0x00000001033a2b48 cxxbridge1$str$ptr + 2967016
+E   11  chromedriver                        0x00000001033743d4 cxxbridge1$str$ptr + 2776692
+E   12  chromedriver                        0x0000000102e66850 chromedriver + 108624
+E   13  dyld                                0x000000019f565d54 start + 7184
+__________________ test_tc20_successful_authorization[chrome] __________________
+tests/test_tutu_use_cases.py:96: in test_tc20_successful_authorization
+    AuthPage(driver).login_with_password(
+pages/auth_page.py:82: in login_with_password
+    self.open_login_form(restore_cache=restore_cache)
+pages/auth_page.py:45: in open_login_form
+    self.open(self.URL)
+pages/base_page.py:23: in open
+    self.driver.get(url)
+.venv/lib/python3.14/site-packages/selenium/webdriver/remote/webdriver.py:488: in get
+    self.execute(Command.GET, {"url": url})
+.venv/lib/python3.14/site-packages/selenium/webdriver/remote/webdriver.py:468: in execute
+    self.error_handler.check_response(response)
+.venv/lib/python3.14/site-packages/selenium/webdriver/remote/errorhandler.py:232: in check_response
+    raise exception_class(message, screen, stacktrace)
+E   selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+E   Stacktrace:
+E   0   chromedriver                        0x00000001033e0c40 cxxbridge1$str$ptr + 3221216
+E   1   chromedriver                        0x00000001033d8b1c cxxbridge1$str$ptr + 3188156
+E   2   chromedriver                        0x0000000102e9b6f8 _RNvCsiKAbIcglKMQ_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74644
+E   3   chromedriver                        0x0000000102ed8d2c _RNvCsiKAbIcglKMQ_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 326088
+E   4   chromedriver                        0x0000000102eff7ac _RNvCsiKAbIcglKMQ_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 484424
+E   5   chromedriver                        0x0000000102eff094 _RNvCsiKAbIcglKMQ_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 482608
+E   6   chromedriver                        0x0000000102e68abc chromedriver + 117436
+E   7   chromedriver                        0x000000010339eb70 cxxbridge1$str$ptr + 2950672
+E   8   chromedriver                        0x00000001033a22c8 cxxbridge1$str$ptr + 2964840
+E   9   chromedriver                        0x00000001033838a8 cxxbridge1$str$ptr + 2839368
+E   10  chromedriver                        0x00000001033a2b48 cxxbridge1$str$ptr + 2967016
+E   11  chromedriver                        0x00000001033743d4 cxxbridge1$str$ptr + 2776692
+E   12  chromedriver                        0x0000000102e66850 chromedriver + 108624
+E   13  dyld                                0x000000019f565d54 start + 7184
+___________________ test_tc01_go_to_railway_tickets[firefox] ___________________
+tests/test_tutu_use_cases.py:16: in test_tc01_go_to_railway_tickets
+    MainPage(driver).open_main().go_to_railway()
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pages/main_page.py:29: in open_main
+    self.open_relative("/")
+pages/base_page.py:31: in open_relative
+    return self.open(self.BASE_URL + path)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pages/base_page.py:27: in open
+    self.wait_body()
+pages/base_page.py:34: in wait_body
+    self.wait.until(EC.visibility_of_element_located((By.XPATH, "//body")))
+.venv/lib/python3.14/site-packages/selenium/webdriver/support/wait.py:121: in until
+    raise TimeoutException(message, screen, stacktrace)
+E   selenium.common.exceptions.TimeoutException: Message: 
+E   Stacktrace:
+E   RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+E   WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+E   NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:552:5
+E   dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+_____________________ test_tc05_bus_ticket_refund[firefox] _____________________
+tests/test_tutu_use_cases.py:32: in test_tc05_bus_ticket_refund
+    BusPage(driver).open_bus_page().open_refund()
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pages/bus_page.py:19: in open_bus_page
+    self.open("https://bus.tutu.ru/")
+pages/base_page.py:23: in open
+    self.driver.get(url)
+.venv/lib/python3.14/site-packages/selenium/webdriver/remote/webdriver.py:488: in get
+    self.execute(Command.GET, {"url": url})
+.venv/lib/python3.14/site-packages/selenium/webdriver/remote/webdriver.py:468: in execute
+    self.error_handler.check_response(response)
+.venv/lib/python3.14/site-packages/selenium/webdriver/remote/errorhandler.py:232: in check_response
+    raise exception_class(message, screen, stacktrace)
+E   selenium.common.exceptions.WebDriverException: Message: Reached error page: about:neterror?e=nssFailure2&u=https%3A//bus.tutu.ru/&c=UTF-8&d=The%20connection%20to%20bus.tutu.ru%20was%20interrupted%20while%20the%20page%20was%20loading.
+E   Stacktrace:
+E   RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+E   WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+E   UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:910:5
+E   checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+E   onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:347:39
+E   emit@resource://gre/modules/EventEmitter.sys.mjs:156:19
+E   receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+________________________ test_tc07_avia_search[firefox] ________________________
+tests/test_tutu_use_cases.py:40: in test_tc07_avia_search
+    AviaPage(driver).open_avia_page().search_route("Москва", "Санкт-Петербург")
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pages/avia_page.py:12: in open_avia_page
+    self.open("https://avia.tutu.ru/")
+pages/base_page.py:23: in open
+    self.driver.get(url)
+.venv/lib/python3.14/site-packages/selenium/webdriver/remote/webdriver.py:488: in get
+    self.execute(Command.GET, {"url": url})
+.venv/lib/python3.14/site-packages/selenium/webdriver/remote/webdriver.py:468: in execute
+    self.error_handler.check_response(response)
+.venv/lib/python3.14/site-packages/selenium/webdriver/remote/errorhandler.py:232: in check_response
+    raise exception_class(message, screen, stacktrace)
+E   selenium.common.exceptions.WebDriverException: Message: Reached error page: about:neterror?e=nssFailure2&u=https%3A//avia.tutu.ru/&c=UTF-8&d=The%20connection%20to%20avia.tutu.ru%20was%20interrupted%20while%20the%20page%20was%20loading.
+E   Stacktrace:
+E   RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+E   WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+E   UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:910:5
+E   checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+E   onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:347:39
+E   emit@resource://gre/modules/EventEmitter.sys.mjs:156:19
+E   receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+___________________ test_tc08_suburban_train_search[firefox] ___________________
+tests/test_tutu_use_cases.py:44: in test_tc08_suburban_train_search
+    SuburbanPage(driver).open_suburban_page().search_route("Москва", "Химки")
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pages/suburban_page.py:12: in open_suburban_page
+    self.open_relative("/prigorod/")
+pages/base_page.py:31: in open_relative
+    return self.open(self.BASE_URL + path)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pages/base_page.py:23: in open
+    self.driver.get(url)
+.venv/lib/python3.14/site-packages/selenium/webdriver/remote/webdriver.py:488: in get
+    self.execute(Command.GET, {"url": url})
+.venv/lib/python3.14/site-packages/selenium/webdriver/remote/webdriver.py:468: in execute
+    self.error_handler.check_response(response)
+.venv/lib/python3.14/site-packages/selenium/webdriver/remote/errorhandler.py:232: in check_response
+    raise exception_class(message, screen, stacktrace)
+E   selenium.common.exceptions.WebDriverException: Message: Reached error page: about:neterror?e=nssFailure2&u=https%3A//www.tutu.ru/prigorod/&c=UTF-8&d=The%20connection%20to%20www.tutu.ru%20was%20interrupted%20while%20the%20page%20was%20loading.
+E   Stacktrace:
+E   RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+E   WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+E   UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:910:5
+E   checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+E   onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:347:39
+E   emit@resource://gre/modules/EventEmitter.sys.mjs:156:19
+E   receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+_____________________ test_tc13_help_refund_topic[firefox] _____________________
+tests/test_tutu_use_cases.py:64: in test_tc13_help_refund_topic
+    HelpPage(driver).open_help().open_refund_topic()
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pages/help_page.py:13: in open_help
+    self.open_relative("/2read/")
+pages/base_page.py:31: in open_relative
+    return self.open(self.BASE_URL + path)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pages/base_page.py:23: in open
+    self.driver.get(url)
+.venv/lib/python3.14/site-packages/selenium/webdriver/remote/webdriver.py:488: in get
+    self.execute(Command.GET, {"url": url})
+.venv/lib/python3.14/site-packages/selenium/webdriver/remote/webdriver.py:468: in execute
+    self.error_handler.check_response(response)
+.venv/lib/python3.14/site-packages/selenium/webdriver/remote/errorhandler.py:232: in check_response
+    raise exception_class(message, screen, stacktrace)
+E   selenium.common.exceptions.WebDriverException: Message: Reached error page: about:neterror?e=nssFailure2&u=https%3A//www.tutu.ru/2read/&c=UTF-8&d=The%20connection%20to%20www.tutu.ru%20was%20interrupted%20while%20the%20page%20was%20loading.
+E   Stacktrace:
+E   RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+E   WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+E   UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:910:5
+E   checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+E   onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:347:39
+E   emit@resource://gre/modules/EventEmitter.sys.mjs:156:19
+E   receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+____________________ test_tc14_login_invalid_email[firefox] ____________________
+tests/test_tutu_use_cases.py:68: in test_tc14_login_invalid_email
+    AuthPage(driver).invalid_email_validation("not-an-email")
+pages/auth_page.py:102: in invalid_email_validation
+    self.open_login_form()
+pages/auth_page.py:45: in open_login_form
+    self.open(self.URL)
+pages/base_page.py:23: in open
+    self.driver.get(url)
+.venv/lib/python3.14/site-packages/selenium/webdriver/remote/webdriver.py:488: in get
+    self.execute(Command.GET, {"url": url})
+.venv/lib/python3.14/site-packages/selenium/webdriver/remote/webdriver.py:468: in execute
+    self.error_handler.check_response(response)
+.venv/lib/python3.14/site-packages/selenium/webdriver/remote/errorhandler.py:232: in check_response
+    raise exception_class(message, screen, stacktrace)
+E   selenium.common.exceptions.WebDriverException: Message: Reached error page: about:neterror?e=nssFailure2&u=https%3A//id.tutu.ru/loginOrRegister%3Fback_url%3Dhttps%253A%252F%252Fmy.tutu.ru%252F&c=UTF-8&d=The%20connection%20to%20id.tutu.ru%20was%20interrupted%20while%20the%20page%20was%20loading.
+E   Stacktrace:
+E   RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+E   WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+E   UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:910:5
+E   checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+E   onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:347:39
+E   emit@resource://gre/modules/EventEmitter.sys.mjs:156:19
+E   receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+__________________ test_tc15_login_nonexistent_user[firefox] ___________________
+tests/test_tutu_use_cases.py:72: in test_tc15_login_nonexistent_user
+    AuthPage(driver).nonexistent_user_validation("missing-user-1230@example.invalid")
+pages/auth_page.py:110: in nonexistent_user_validation
+    self.open_login_form()
+pages/auth_page.py:45: in open_login_form
+    self.open(self.URL)
+pages/base_page.py:23: in open
+    self.driver.get(url)
+.venv/lib/python3.14/site-packages/selenium/webdriver/remote/webdriver.py:488: in get
+    self.execute(Command.GET, {"url": url})
+.venv/lib/python3.14/site-packages/selenium/webdriver/remote/webdriver.py:468: in execute
+    self.error_handler.check_response(response)
+.venv/lib/python3.14/site-packages/selenium/webdriver/remote/errorhandler.py:232: in check_response
+    raise exception_class(message, screen, stacktrace)
+E   selenium.common.exceptions.WebDriverException: Message: Reached error page: about:neterror?e=nssFailure2&u=https%3A//id.tutu.ru/loginOrRegister%3Fback_url%3Dhttps%253A%252F%252Fmy.tutu.ru%252F&c=UTF-8&d=The%20connection%20to%20id.tutu.ru%20was%20interrupted%20while%20the%20page%20was%20loading.
+E   Stacktrace:
+E   RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+E   WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+E   UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:910:5
+E   checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+E   onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:347:39
+E   emit@resource://gre/modules/EventEmitter.sys.mjs:156:19
+E   receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+___________________ test_tc16_login_wrong_password[firefox] ____________________
+tests/test_tutu_use_cases.py:76: in test_tc16_login_wrong_password
+    AuthPage(driver).login_with_password("armangokka@gmail.com", "wrong-password-1230").assert_login_failed()
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pages/auth_page.py:82: in login_with_password
+    self.open_login_form(restore_cache=restore_cache)
+pages/auth_page.py:45: in open_login_form
+    self.open(self.URL)
+pages/base_page.py:23: in open
+    self.driver.get(url)
+.venv/lib/python3.14/site-packages/selenium/webdriver/remote/webdriver.py:488: in get
+    self.execute(Command.GET, {"url": url})
+.venv/lib/python3.14/site-packages/selenium/webdriver/remote/webdriver.py:468: in execute
+    self.error_handler.check_response(response)
+.venv/lib/python3.14/site-packages/selenium/webdriver/remote/errorhandler.py:232: in check_response
+    raise exception_class(message, screen, stacktrace)
+E   selenium.common.exceptions.WebDriverException: Message: Reached error page: about:neterror?e=nssFailure2&u=https%3A//id.tutu.ru/loginOrRegister%3Fback_url%3Dhttps%253A%252F%252Fmy.tutu.ru%252F&c=UTF-8&d=The%20connection%20to%20id.tutu.ru%20was%20interrupted%20while%20the%20page%20was%20loading.
+E   Stacktrace:
+E   RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+E   WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+E   UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:910:5
+E   checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+E   onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:347:39
+E   emit@resource://gre/modules/EventEmitter.sys.mjs:156:19
+E   receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+___________________ test_tc17_login_short_password[firefox] ____________________
+tests/test_tutu_use_cases.py:80: in test_tc17_login_short_password
+    AuthPage(driver).short_password_validation("armangokka@gmail.com", "123")
+pages/auth_page.py:119: in short_password_validation
+    self.open_login_form()
+pages/auth_page.py:45: in open_login_form
+    self.open(self.URL)
+pages/base_page.py:23: in open
+    self.driver.get(url)
+.venv/lib/python3.14/site-packages/selenium/webdriver/remote/webdriver.py:488: in get
+    self.execute(Command.GET, {"url": url})
+.venv/lib/python3.14/site-packages/selenium/webdriver/remote/webdriver.py:468: in execute
+    self.error_handler.check_response(response)
+.venv/lib/python3.14/site-packages/selenium/webdriver/remote/errorhandler.py:232: in check_response
+    raise exception_class(message, screen, stacktrace)
+E   selenium.common.exceptions.WebDriverException: Message: Reached error page: about:neterror?e=nssFailure2&u=https%3A//id.tutu.ru/loginOrRegister%3Fback_url%3Dhttps%253A%252F%252Fmy.tutu.ru%252F&c=UTF-8&d=The%20connection%20to%20id.tutu.ru%20was%20interrupted%20while%20the%20page%20was%20loading.
+E   Stacktrace:
+E   RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+E   WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+E   UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:910:5
+E   checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+E   onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:347:39
+E   emit@resource://gre/modules/EventEmitter.sys.mjs:156:19
+E   receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+________________ test_tc18_registration_invalid_email[firefox] _________________
+tests/test_tutu_use_cases.py:84: in test_tc18_registration_invalid_email
+    AuthPage(driver).registration_invalid_email_validation("bad-registration-email")
+pages/auth_page.py:130: in registration_invalid_email_validation
+    return self.invalid_email_validation(email)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pages/auth_page.py:102: in invalid_email_validation
+    self.open_login_form()
+pages/auth_page.py:45: in open_login_form
+    self.open(self.URL)
+pages/base_page.py:23: in open
+    self.driver.get(url)
+.venv/lib/python3.14/site-packages/selenium/webdriver/remote/webdriver.py:488: in get
+    self.execute(Command.GET, {"url": url})
+.venv/lib/python3.14/site-packages/selenium/webdriver/remote/webdriver.py:468: in execute
+    self.error_handler.check_response(response)
+.venv/lib/python3.14/site-packages/selenium/webdriver/remote/errorhandler.py:232: in check_response
+    raise exception_class(message, screen, stacktrace)
+E   selenium.common.exceptions.WebDriverException: Message: Reached error page: about:neterror?e=nssFailure2&u=https%3A//id.tutu.ru/loginOrRegister%3Fback_url%3Dhttps%253A%252F%252Fmy.tutu.ru%252F&c=UTF-8&d=The%20connection%20to%20id.tutu.ru%20was%20interrupted%20while%20the%20page%20was%20loading.
+E   Stacktrace:
+E   RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+E   WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+E   UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:910:5
+E   checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+E   onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:347:39
+E   emit@resource://gre/modules/EventEmitter.sys.mjs:156:19
+E   receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+___________________ test_tc19_choose_railway_ticket[firefox] ___________________
+tests/test_tutu_use_cases.py:88: in test_tc19_choose_railway_ticket
+    RailwayPage(driver).choose_first_ticket()
+pages/railway_page.py:68: in choose_first_ticket
+    self.open_prepared_results_page()
+pages/railway_page.py:38: in open_prepared_results_page
+    self.open_relative("/poezda/rasp_d.php?nnst1=2000000&nnst2=2004000")
+pages/base_page.py:31: in open_relative
+    return self.open(self.BASE_URL + path)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pages/base_page.py:23: in open
+    self.driver.get(url)
+.venv/lib/python3.14/site-packages/selenium/webdriver/remote/webdriver.py:488: in get
+    self.execute(Command.GET, {"url": url})
+.venv/lib/python3.14/site-packages/selenium/webdriver/remote/webdriver.py:468: in execute
+    self.error_handler.check_response(response)
+.venv/lib/python3.14/site-packages/selenium/webdriver/remote/errorhandler.py:232: in check_response
+    raise exception_class(message, screen, stacktrace)
+E   selenium.common.exceptions.WebDriverException: Message: Reached error page: about:neterror?e=nssFailure2&u=https%3A//www.tutu.ru/poezda/rasp_d.php%3Fnnst1%3D2000000%26nnst2%3D2004000&c=UTF-8&d=The%20connection%20to%20www.tutu.ru%20was%20interrupted%20while%20the%20page%20was%20loading.
+E   Stacktrace:
+E   RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+E   WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+E   UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:910:5
+E   checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+E   onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:347:39
+E   emit@resource://gre/modules/EventEmitter.sys.mjs:156:19
+E   receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+_________________ test_tc20_successful_authorization[firefox] __________________
+tests/test_tutu_use_cases.py:96: in test_tc20_successful_authorization
+    AuthPage(driver).login_with_password(
+pages/auth_page.py:82: in login_with_password
+    self.open_login_form(restore_cache=restore_cache)
+pages/auth_page.py:45: in open_login_form
+    self.open(self.URL)
+pages/base_page.py:23: in open
+    self.driver.get(url)
+.venv/lib/python3.14/site-packages/selenium/webdriver/remote/webdriver.py:488: in get
+    self.execute(Command.GET, {"url": url})
+.venv/lib/python3.14/site-packages/selenium/webdriver/remote/webdriver.py:468: in execute
+    self.error_handler.check_response(response)
+.venv/lib/python3.14/site-packages/selenium/webdriver/remote/errorhandler.py:232: in check_response
+    raise exception_class(message, screen, stacktrace)
+E   selenium.common.exceptions.WebDriverException: Message: Reached error page: about:neterror?e=nssFailure2&u=https%3A//id.tutu.ru/loginOrRegister%3Fback_url%3Dhttps%253A%252F%252Fmy.tutu.ru%252F&c=UTF-8&d=The%20connection%20to%20id.tutu.ru%20was%20interrupted%20while%20the%20page%20was%20loading.
+E   Stacktrace:
+E   RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+E   WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+E   UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:910:5
+E   checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+E   onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:347:39
+E   emit@resource://gre/modules/EventEmitter.sys.mjs:156:19
+E   receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+=========================== short test summary info ============================
+FAILED tests/test_tutu_use_cases.py::test_tc05_bus_ticket_refund[chrome] - selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+0   chromedriver                        0x00000001033e0c40 cxxbridge1$str$ptr + 3221216
+1   chromedriver                        0x00000001033d8b1c cxxbridge1$str$ptr + 3188156
+2   chromedriver                        0x0000000102e9b8f4 _RNvCsiKAbIcglKMQ_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75152
+3   chromedriver                        0x0000000102ee3ff8 _RNvCsiKAbIcglKMQ_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 371860
+4   chromedriver                        0x0000000102f236f4 _RNvCsiKAbIcglKMQ_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 631696
+5   chromedriver                        0x0000000102ed99c0 _RNvCsiKAbIcglKMQ_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 329308
+6   chromedriver                        0x000000010339eb70 cxxbridge1$str$ptr + 2950672
+7   chromedriver                        0x00000001033a22c8 cxxbridge1$str$ptr + 2964840
+8   chromedriver                        0x00000001033838a8 cxxbridge1$str$ptr + 2839368
+9   chromedriver                        0x00000001033a2b48 cxxbridge1$str$ptr + 2967016
+10  chromedriver                        0x00000001033743d4 cxxbridge1$str$ptr + 2776692
+11  chromedriver                        0x00000001033c77ac cxxbridge1$str$ptr + 3117644
+12  chromedriver                        0x00000001033c790c cxxbridge1$str$ptr + 3117996
+13  chromedriver                        0x00000001033d8774 cxxbridge1$str$ptr + 3187220
+14  libsystem_pthread.dylib             0x000000019f92fc08 _pthread_start + 136
+15  libsystem_pthread.dylib             0x000000019f92aba8 thread_start + 8
+FAILED tests/test_tutu_use_cases.py::test_tc09_hotel_search[chrome] - selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: Unable to receive message from renderer
+  (Session info: chrome=148.0.7778.178); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+0   chromedriver                        0x00000001033e0c40 cxxbridge1$str$ptr + 3221216
+1   chromedriver                        0x00000001033d8b1c cxxbridge1$str$ptr + 3188156
+2   chromedriver                        0x0000000102e9b8f4 _RNvCsiKAbIcglKMQ_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 75152
+3   chromedriver                        0x0000000102e85d20 cxxbridge1$string$len + 4096
+4   chromedriver                        0x0000000102e85a80 cxxbridge1$string$len + 3424
+5   chromedriver                        0x0000000102e8491c chromedriver + 231708
+6   chromedriver                        0x0000000102ea7f00 _RNvCsiKAbIcglKMQ_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 125852
+7   chromedriver                        0x0000000102f2399c _RNvCsiKAbIcglKMQ_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 632376
+8   chromedriver                        0x0000000102ed99c0 _RNvCsiKAbIcglKMQ_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 329308
+9   chromedriver                        0x000000010339eb70 cxxbridge1$str$ptr + 2950672
+10  chromedriver                        0x00000001033a22c8 cxxbridge1$str$ptr + 2964840
+11  chromedriver                        0x00000001033838a8 cxxbridge1$str$ptr + 2839368
+12  chromedriver                        0x00000001033a2b48 cxxbridge1$str$ptr + 2967016
+13  chromedriver                        0x00000001033743d4 cxxbridge1$str$ptr + 2776692
+14  chromedriver                        0x00000001033c77ac cxxbridge1$str$ptr + 3117644
+15  chromedriver                        0x00000001033c790c cxxbridge1$str$ptr + 3117996
+16  chromedriver                        0x00000001033d8774 cxxbridge1$str$ptr + 3187220
+17  libsystem_pthread.dylib             0x000000019f92fc08 _pthread_start + 136
+18  libsystem_pthread.dylib             0x000000019f92aba8 thread_start + 8
+FAILED tests/test_tutu_use_cases.py::test_tc10_results_filter[chrome] - selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+0   chromedriver                        0x00000001033e0c40 cxxbridge1$str$ptr + 3221216
+1   chromedriver                        0x00000001033d8b1c cxxbridge1$str$ptr + 3188156
+2   chromedriver                        0x0000000102e9b6f8 _RNvCsiKAbIcglKMQ_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74644
+3   chromedriver                        0x0000000102ed8d2c _RNvCsiKAbIcglKMQ_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 326088
+4   chromedriver                        0x0000000102eff7ac _RNvCsiKAbIcglKMQ_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 484424
+5   chromedriver                        0x0000000102eff094 _RNvCsiKAbIcglKMQ_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 482608
+6   chromedriver                        0x0000000102e68abc chromedriver + 117436
+7   chromedriver                        0x000000010339eb70 cxxbridge1$str$ptr + 2950672
+8   chromedriver                        0x00000001033a22c8 cxxbridge1$str$ptr + 2964840
+9   chromedriver                        0x00000001033838a8 cxxbridge1$str$ptr + 2839368
+10  chromedriver                        0x00000001033a2b48 cxxbridge1$str$ptr + 2967016
+11  chromedriver                        0x00000001033743d4 cxxbridge1$str$ptr + 2776692
+12  chromedriver                        0x0000000102e66850 chromedriver + 108624
+13  dyld                                0x000000019f565d54 start + 7184
+FAILED tests/test_tutu_use_cases.py::test_tc11_open_result_card[chrome] - selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+0   chromedriver                        0x00000001033e0c40 cxxbridge1$str$ptr + 3221216
+1   chromedriver                        0x00000001033d8b1c cxxbridge1$str$ptr + 3188156
+2   chromedriver                        0x0000000102e9b6f8 _RNvCsiKAbIcglKMQ_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74644
+3   chromedriver                        0x0000000102ed8d2c _RNvCsiKAbIcglKMQ_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 326088
+4   chromedriver                        0x0000000102eff7ac _RNvCsiKAbIcglKMQ_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 484424
+5   chromedriver                        0x0000000102eff094 _RNvCsiKAbIcglKMQ_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 482608
+6   chromedriver                        0x0000000102e68abc chromedriver + 117436
+7   chromedriver                        0x000000010339eb70 cxxbridge1$str$ptr + 2950672
+8   chromedriver                        0x00000001033a22c8 cxxbridge1$str$ptr + 2964840
+9   chromedriver                        0x00000001033838a8 cxxbridge1$str$ptr + 2839368
+10  chromedriver                        0x00000001033a2b48 cxxbridge1$str$ptr + 2967016
+11  chromedriver                        0x00000001033743d4 cxxbridge1$str$ptr + 2776692
+12  chromedriver                        0x0000000102e66850 chromedriver + 108624
+13  dyld                                0x000000019f565d54 start + 7184
+FAILED tests/test_tutu_use_cases.py::test_tc12_authorization_form[chrome] - selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+0   chromedriver                        0x00000001033e0c40 cxxbridge1$str$ptr + 3221216
+1   chromedriver                        0x00000001033d8b1c cxxbridge1$str$ptr + 3188156
+2   chromedriver                        0x0000000102e9b6f8 _RNvCsiKAbIcglKMQ_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74644
+3   chromedriver                        0x0000000102ed8d2c _RNvCsiKAbIcglKMQ_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 326088
+4   chromedriver                        0x0000000102eff7ac _RNvCsiKAbIcglKMQ_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 484424
+5   chromedriver                        0x0000000102eff094 _RNvCsiKAbIcglKMQ_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 482608
+6   chromedriver                        0x0000000102e68abc chromedriver + 117436
+7   chromedriver                        0x000000010339eb70 cxxbridge1$str$ptr + 2950672
+8   chromedriver                        0x00000001033a22c8 cxxbridge1$str$ptr + 2964840
+9   chromedriver                        0x00000001033838a8 cxxbridge1$str$ptr + 2839368
+10  chromedriver                        0x00000001033a2b48 cxxbridge1$str$ptr + 2967016
+11  chromedriver                        0x00000001033743d4 cxxbridge1$str$ptr + 2776692
+12  chromedriver                        0x0000000102e66850 chromedriver + 108624
+13  dyld                                0x000000019f565d54 start + 7184
+FAILED tests/test_tutu_use_cases.py::test_tc13_help_refund_topic[chrome] - selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+0   chromedriver                        0x00000001033e0c40 cxxbridge1$str$ptr + 3221216
+1   chromedriver                        0x00000001033d8b1c cxxbridge1$str$ptr + 3188156
+2   chromedriver                        0x0000000102e9b6f8 _RNvCsiKAbIcglKMQ_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74644
+3   chromedriver                        0x0000000102ed8d2c _RNvCsiKAbIcglKMQ_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 326088
+4   chromedriver                        0x0000000102eff7ac _RNvCsiKAbIcglKMQ_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 484424
+5   chromedriver                        0x0000000102eff094 _RNvCsiKAbIcglKMQ_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 482608
+6   chromedriver                        0x0000000102e68abc chromedriver + 117436
+7   chromedriver                        0x000000010339eb70 cxxbridge1$str$ptr + 2950672
+8   chromedriver                        0x00000001033a22c8 cxxbridge1$str$ptr + 2964840
+9   chromedriver                        0x00000001033838a8 cxxbridge1$str$ptr + 2839368
+10  chromedriver                        0x00000001033a2b48 cxxbridge1$str$ptr + 2967016
+11  chromedriver                        0x00000001033743d4 cxxbridge1$str$ptr + 2776692
+12  chromedriver                        0x0000000102e66850 chromedriver + 108624
+13  dyld                                0x000000019f565d54 start + 7184
+FAILED tests/test_tutu_use_cases.py::test_tc14_login_invalid_email[chrome] - selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+0   chromedriver                        0x00000001033e0c40 cxxbridge1$str$ptr + 3221216
+1   chromedriver                        0x00000001033d8b1c cxxbridge1$str$ptr + 3188156
+2   chromedriver                        0x0000000102e9b6f8 _RNvCsiKAbIcglKMQ_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74644
+3   chromedriver                        0x0000000102ed8d2c _RNvCsiKAbIcglKMQ_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 326088
+4   chromedriver                        0x0000000102eff7ac _RNvCsiKAbIcglKMQ_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 484424
+5   chromedriver                        0x0000000102eff094 _RNvCsiKAbIcglKMQ_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 482608
+6   chromedriver                        0x0000000102e68abc chromedriver + 117436
+7   chromedriver                        0x000000010339eb70 cxxbridge1$str$ptr + 2950672
+8   chromedriver                        0x00000001033a22c8 cxxbridge1$str$ptr + 2964840
+9   chromedriver                        0x00000001033838a8 cxxbridge1$str$ptr + 2839368
+10  chromedriver                        0x00000001033a2b48 cxxbridge1$str$ptr + 2967016
+11  chromedriver                        0x00000001033743d4 cxxbridge1$str$ptr + 2776692
+12  chromedriver                        0x0000000102e66850 chromedriver + 108624
+13  dyld                                0x000000019f565d54 start + 7184
+FAILED tests/test_tutu_use_cases.py::test_tc15_login_nonexistent_user[chrome] - selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+0   chromedriver                        0x00000001033e0c40 cxxbridge1$str$ptr + 3221216
+1   chromedriver                        0x00000001033d8b1c cxxbridge1$str$ptr + 3188156
+2   chromedriver                        0x0000000102e9b6f8 _RNvCsiKAbIcglKMQ_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74644
+3   chromedriver                        0x0000000102ed8d2c _RNvCsiKAbIcglKMQ_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 326088
+4   chromedriver                        0x0000000102eff7ac _RNvCsiKAbIcglKMQ_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 484424
+5   chromedriver                        0x0000000102eff094 _RNvCsiKAbIcglKMQ_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 482608
+6   chromedriver                        0x0000000102e68abc chromedriver + 117436
+7   chromedriver                        0x000000010339eb70 cxxbridge1$str$ptr + 2950672
+8   chromedriver                        0x00000001033a22c8 cxxbridge1$str$ptr + 2964840
+9   chromedriver                        0x00000001033838a8 cxxbridge1$str$ptr + 2839368
+10  chromedriver                        0x00000001033a2b48 cxxbridge1$str$ptr + 2967016
+11  chromedriver                        0x00000001033743d4 cxxbridge1$str$ptr + 2776692
+12  chromedriver                        0x0000000102e66850 chromedriver + 108624
+13  dyld                                0x000000019f565d54 start + 7184
+FAILED tests/test_tutu_use_cases.py::test_tc16_login_wrong_password[chrome] - selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+0   chromedriver                        0x00000001033e0c40 cxxbridge1$str$ptr + 3221216
+1   chromedriver                        0x00000001033d8b1c cxxbridge1$str$ptr + 3188156
+2   chromedriver                        0x0000000102e9b6f8 _RNvCsiKAbIcglKMQ_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74644
+3   chromedriver                        0x0000000102ed8d2c _RNvCsiKAbIcglKMQ_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 326088
+4   chromedriver                        0x0000000102eff7ac _RNvCsiKAbIcglKMQ_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 484424
+5   chromedriver                        0x0000000102eff094 _RNvCsiKAbIcglKMQ_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 482608
+6   chromedriver                        0x0000000102e68abc chromedriver + 117436
+7   chromedriver                        0x000000010339eb70 cxxbridge1$str$ptr + 2950672
+8   chromedriver                        0x00000001033a22c8 cxxbridge1$str$ptr + 2964840
+9   chromedriver                        0x00000001033838a8 cxxbridge1$str$ptr + 2839368
+10  chromedriver                        0x00000001033a2b48 cxxbridge1$str$ptr + 2967016
+11  chromedriver                        0x00000001033743d4 cxxbridge1$str$ptr + 2776692
+12  chromedriver                        0x0000000102e66850 chromedriver + 108624
+13  dyld                                0x000000019f565d54 start + 7184
+FAILED tests/test_tutu_use_cases.py::test_tc17_login_short_password[chrome] - selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+0   chromedriver                        0x00000001033e0c40 cxxbridge1$str$ptr + 3221216
+1   chromedriver                        0x00000001033d8b1c cxxbridge1$str$ptr + 3188156
+2   chromedriver                        0x0000000102e9b6f8 _RNvCsiKAbIcglKMQ_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74644
+3   chromedriver                        0x0000000102ed8d2c _RNvCsiKAbIcglKMQ_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 326088
+4   chromedriver                        0x0000000102eff7ac _RNvCsiKAbIcglKMQ_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 484424
+5   chromedriver                        0x0000000102eff094 _RNvCsiKAbIcglKMQ_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 482608
+6   chromedriver                        0x0000000102e68abc chromedriver + 117436
+7   chromedriver                        0x000000010339eb70 cxxbridge1$str$ptr + 2950672
+8   chromedriver                        0x00000001033a22c8 cxxbridge1$str$ptr + 2964840
+9   chromedriver                        0x00000001033838a8 cxxbridge1$str$ptr + 2839368
+10  chromedriver                        0x00000001033a2b48 cxxbridge1$str$ptr + 2967016
+11  chromedriver                        0x00000001033743d4 cxxbridge1$str$ptr + 2776692
+12  chromedriver                        0x0000000102e66850 chromedriver + 108624
+13  dyld                                0x000000019f565d54 start + 7184
+FAILED tests/test_tutu_use_cases.py::test_tc18_registration_invalid_email[chrome] - selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+0   chromedriver                        0x00000001033e0c40 cxxbridge1$str$ptr + 3221216
+1   chromedriver                        0x00000001033d8b1c cxxbridge1$str$ptr + 3188156
+2   chromedriver                        0x0000000102e9b6f8 _RNvCsiKAbIcglKMQ_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74644
+3   chromedriver                        0x0000000102ed8d2c _RNvCsiKAbIcglKMQ_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 326088
+4   chromedriver                        0x0000000102eff7ac _RNvCsiKAbIcglKMQ_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 484424
+5   chromedriver                        0x0000000102eff094 _RNvCsiKAbIcglKMQ_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 482608
+6   chromedriver                        0x0000000102e68abc chromedriver + 117436
+7   chromedriver                        0x000000010339eb70 cxxbridge1$str$ptr + 2950672
+8   chromedriver                        0x00000001033a22c8 cxxbridge1$str$ptr + 2964840
+9   chromedriver                        0x00000001033838a8 cxxbridge1$str$ptr + 2839368
+10  chromedriver                        0x00000001033a2b48 cxxbridge1$str$ptr + 2967016
+11  chromedriver                        0x00000001033743d4 cxxbridge1$str$ptr + 2776692
+12  chromedriver                        0x0000000102e66850 chromedriver + 108624
+13  dyld                                0x000000019f565d54 start + 7184
+FAILED tests/test_tutu_use_cases.py::test_tc19_choose_railway_ticket[chrome] - selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+0   chromedriver                        0x00000001033e0c40 cxxbridge1$str$ptr + 3221216
+1   chromedriver                        0x00000001033d8b1c cxxbridge1$str$ptr + 3188156
+2   chromedriver                        0x0000000102e9b6f8 _RNvCsiKAbIcglKMQ_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74644
+3   chromedriver                        0x0000000102ed8d2c _RNvCsiKAbIcglKMQ_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 326088
+4   chromedriver                        0x0000000102eff7ac _RNvCsiKAbIcglKMQ_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 484424
+5   chromedriver                        0x0000000102eff094 _RNvCsiKAbIcglKMQ_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 482608
+6   chromedriver                        0x0000000102e68abc chromedriver + 117436
+7   chromedriver                        0x000000010339eb70 cxxbridge1$str$ptr + 2950672
+8   chromedriver                        0x00000001033a22c8 cxxbridge1$str$ptr + 2964840
+9   chromedriver                        0x00000001033838a8 cxxbridge1$str$ptr + 2839368
+10  chromedriver                        0x00000001033a2b48 cxxbridge1$str$ptr + 2967016
+11  chromedriver                        0x00000001033743d4 cxxbridge1$str$ptr + 2776692
+12  chromedriver                        0x0000000102e66850 chromedriver + 108624
+13  dyld                                0x000000019f565d54 start + 7184
+FAILED tests/test_tutu_use_cases.py::test_tc20_successful_authorization[chrome] - selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+0   chromedriver                        0x00000001033e0c40 cxxbridge1$str$ptr + 3221216
+1   chromedriver                        0x00000001033d8b1c cxxbridge1$str$ptr + 3188156
+2   chromedriver                        0x0000000102e9b6f8 _RNvCsiKAbIcglKMQ_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 74644
+3   chromedriver                        0x0000000102ed8d2c _RNvCsiKAbIcglKMQ_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 326088
+4   chromedriver                        0x0000000102eff7ac _RNvCsiKAbIcglKMQ_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 484424
+5   chromedriver                        0x0000000102eff094 _RNvCsiKAbIcglKMQ_7___rustc35___rust_no_alloc_shim_is_unstable_v2 + 482608
+6   chromedriver                        0x0000000102e68abc chromedriver + 117436
+7   chromedriver                        0x000000010339eb70 cxxbridge1$str$ptr + 2950672
+8   chromedriver                        0x00000001033a22c8 cxxbridge1$str$ptr + 2964840
+9   chromedriver                        0x00000001033838a8 cxxbridge1$str$ptr + 2839368
+10  chromedriver                        0x00000001033a2b48 cxxbridge1$str$ptr + 2967016
+11  chromedriver                        0x00000001033743d4 cxxbridge1$str$ptr + 2776692
+12  chromedriver                        0x0000000102e66850 chromedriver + 108624
+13  dyld                                0x000000019f565d54 start + 7184
+FAILED tests/test_tutu_use_cases.py::test_tc01_go_to_railway_tickets[firefox] - selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:552:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+FAILED tests/test_tutu_use_cases.py::test_tc05_bus_ticket_refund[firefox] - selenium.common.exceptions.WebDriverException: Message: Reached error page: about:neterror?e=nssFailure2&u=https%3A//bus.tutu.ru/&c=UTF-8&d=The%20connection%20to%20bus.tutu.ru%20was%20interrupted%20while%20the%20page%20was%20loading.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:910:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:347:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:156:19
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+FAILED tests/test_tutu_use_cases.py::test_tc07_avia_search[firefox] - selenium.common.exceptions.WebDriverException: Message: Reached error page: about:neterror?e=nssFailure2&u=https%3A//avia.tutu.ru/&c=UTF-8&d=The%20connection%20to%20avia.tutu.ru%20was%20interrupted%20while%20the%20page%20was%20loading.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:910:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:347:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:156:19
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+FAILED tests/test_tutu_use_cases.py::test_tc08_suburban_train_search[firefox] - selenium.common.exceptions.WebDriverException: Message: Reached error page: about:neterror?e=nssFailure2&u=https%3A//www.tutu.ru/prigorod/&c=UTF-8&d=The%20connection%20to%20www.tutu.ru%20was%20interrupted%20while%20the%20page%20was%20loading.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:910:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:347:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:156:19
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+FAILED tests/test_tutu_use_cases.py::test_tc13_help_refund_topic[firefox] - selenium.common.exceptions.WebDriverException: Message: Reached error page: about:neterror?e=nssFailure2&u=https%3A//www.tutu.ru/2read/&c=UTF-8&d=The%20connection%20to%20www.tutu.ru%20was%20interrupted%20while%20the%20page%20was%20loading.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:910:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:347:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:156:19
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+FAILED tests/test_tutu_use_cases.py::test_tc14_login_invalid_email[firefox] - selenium.common.exceptions.WebDriverException: Message: Reached error page: about:neterror?e=nssFailure2&u=https%3A//id.tutu.ru/loginOrRegister%3Fback_url%3Dhttps%253A%252F%252Fmy.tutu.ru%252F&c=UTF-8&d=The%20connection%20to%20id.tutu.ru%20was%20interrupted%20while%20the%20page%20was%20loading.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:910:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:347:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:156:19
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+FAILED tests/test_tutu_use_cases.py::test_tc15_login_nonexistent_user[firefox] - selenium.common.exceptions.WebDriverException: Message: Reached error page: about:neterror?e=nssFailure2&u=https%3A//id.tutu.ru/loginOrRegister%3Fback_url%3Dhttps%253A%252F%252Fmy.tutu.ru%252F&c=UTF-8&d=The%20connection%20to%20id.tutu.ru%20was%20interrupted%20while%20the%20page%20was%20loading.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:910:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:347:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:156:19
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+FAILED tests/test_tutu_use_cases.py::test_tc16_login_wrong_password[firefox] - selenium.common.exceptions.WebDriverException: Message: Reached error page: about:neterror?e=nssFailure2&u=https%3A//id.tutu.ru/loginOrRegister%3Fback_url%3Dhttps%253A%252F%252Fmy.tutu.ru%252F&c=UTF-8&d=The%20connection%20to%20id.tutu.ru%20was%20interrupted%20while%20the%20page%20was%20loading.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:910:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:347:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:156:19
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+FAILED tests/test_tutu_use_cases.py::test_tc17_login_short_password[firefox] - selenium.common.exceptions.WebDriverException: Message: Reached error page: about:neterror?e=nssFailure2&u=https%3A//id.tutu.ru/loginOrRegister%3Fback_url%3Dhttps%253A%252F%252Fmy.tutu.ru%252F&c=UTF-8&d=The%20connection%20to%20id.tutu.ru%20was%20interrupted%20while%20the%20page%20was%20loading.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:910:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:347:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:156:19
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+FAILED tests/test_tutu_use_cases.py::test_tc18_registration_invalid_email[firefox] - selenium.common.exceptions.WebDriverException: Message: Reached error page: about:neterror?e=nssFailure2&u=https%3A//id.tutu.ru/loginOrRegister%3Fback_url%3Dhttps%253A%252F%252Fmy.tutu.ru%252F&c=UTF-8&d=The%20connection%20to%20id.tutu.ru%20was%20interrupted%20while%20the%20page%20was%20loading.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:910:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:347:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:156:19
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+FAILED tests/test_tutu_use_cases.py::test_tc19_choose_railway_ticket[firefox] - selenium.common.exceptions.WebDriverException: Message: Reached error page: about:neterror?e=nssFailure2&u=https%3A//www.tutu.ru/poezda/rasp_d.php%3Fnnst1%3D2000000%26nnst2%3D2004000&c=UTF-8&d=The%20connection%20to%20www.tutu.ru%20was%20interrupted%20while%20the%20page%20was%20loading.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:910:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:347:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:156:19
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+FAILED tests/test_tutu_use_cases.py::test_tc20_successful_authorization[firefox] - selenium.common.exceptions.WebDriverException: Message: Reached error page: about:neterror?e=nssFailure2&u=https%3A//id.tutu.ru/loginOrRegister%3Fback_url%3Dhttps%253A%252F%252Fmy.tutu.ru%252F&c=UTF-8&d=The%20connection%20to%20id.tutu.ru%20was%20interrupted%20while%20the%20page%20was%20loading.
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:910:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:58:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:347:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:156:19
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+================== 25 failed, 15 passed in 678.30s (0:11:18) ===================

@@ -44,6 +44,7 @@ class MainPage(BasePage):
         return self
 
     def open_login_form(self):
+        self.close_obstructive_popups()
         self.click_xpath_if_present(self.LOGIN_BUTTON)
         self.wait_body_contains_any("Телефон", "почт", "Войти", "Код", "Личный кабинет")
         return self

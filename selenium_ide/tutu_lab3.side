@@ -1,0 +1,179 @@
+{
+  "id": "b3f19d0c-3b4e-4d7a-9c75-123000000001",
+  "version": "2.0",
+  "name": "ST_lab3_Tutu_1230",
+  "url": "https://www.tutu.ru",
+  "tests": [
+    {
+      "id": "b3f19d0c-3b4e-4d7a-9c75-123000000101",
+      "name": "TC01 open railway section",
+      "commands": [
+        {
+          "id": "b3f19d0c-3b4e-4d7a-9c75-123000001001",
+          "comment": "",
+          "command": "open",
+          "target": "/",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "b3f19d0c-3b4e-4d7a-9c75-123000001002",
+          "comment": "",
+          "command": "click",
+          "target": "xpath=(//*[self::a or self::button or @role='button' or self::div or self::span][contains(normalize-space(.), 'Ж/д') or contains(normalize-space(.), 'поезд') or contains(normalize-space(.), 'Поезда')])[1]",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "b3f19d0c-3b4e-4d7a-9c75-123000001003",
+          "comment": "",
+          "command": "assertText",
+          "target": "xpath=//body",
+          "targets": [],
+          "value": "*поезд*"
+        }
+      ]
+    },
+    {
+      "id": "b3f19d0c-3b4e-4d7a-9c75-123000000102",
+      "name": "TC02 railway search",
+      "commands": [
+        {
+          "id": "b3f19d0c-3b4e-4d7a-9c75-123000002001",
+          "comment": "",
+          "command": "open",
+          "target": "/poezda/",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "b3f19d0c-3b4e-4d7a-9c75-123000002002",
+          "comment": "",
+          "command": "type",
+          "target": "xpath=(//*[self::input or self::textarea][not(@type='hidden') and not(@disabled)])[1]",
+          "targets": [],
+          "value": "Москва"
+        },
+        {
+          "id": "b3f19d0c-3b4e-4d7a-9c75-123000002003",
+          "comment": "",
+          "command": "type",
+          "target": "xpath=(//*[self::input or self::textarea][not(@type='hidden') and not(@disabled)])[2]",
+          "targets": [],
+          "value": "Санкт-Петербург"
+        },
+        {
+          "id": "b3f19d0c-3b4e-4d7a-9c75-123000002004",
+          "comment": "",
+          "command": "click",
+          "target": "xpath=(//*[self::button or self::a or @role='button' or self::div or self::span][contains(normalize-space(.), 'Найти') or contains(normalize-space(.), 'Поиск') or contains(normalize-space(.), 'расписание') or contains(normalize-space(.), 'Расписание')])[1]",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "b3f19d0c-3b4e-4d7a-9c75-123000002005",
+          "comment": "",
+          "command": "assertText",
+          "target": "xpath=//body",
+          "targets": [],
+          "value": "*билет*"
+        }
+      ]
+    },
+    {
+      "id": "b3f19d0c-3b4e-4d7a-9c75-123000000103",
+      "name": "TC03 login invalid email",
+      "commands": [
+        {
+          "id": "b3f19d0c-3b4e-4d7a-9c75-123000003001",
+          "comment": "",
+          "command": "open",
+          "target": "/",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "b3f19d0c-3b4e-4d7a-9c75-123000003002",
+          "comment": "",
+          "command": "click",
+          "target": "xpath=(//*[self::button or self::a or @role='button'][@data-ti='login-button' or contains(normalize-space(.), 'Войти') or contains(normalize-space(.), 'Личный кабинет')])[1]",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "b3f19d0c-3b4e-4d7a-9c75-123000003003",
+          "comment": "",
+          "command": "type",
+          "target": "xpath=(//input[not(@type='hidden') and not(@disabled)])[1]",
+          "targets": [],
+          "value": "not-an-email"
+        },
+        {
+          "id": "b3f19d0c-3b4e-4d7a-9c75-123000003004",
+          "comment": "",
+          "command": "click",
+          "target": "xpath=(//*[self::button or self::a or @role='button'][contains(normalize-space(.), 'Продолжить') or contains(normalize-space(.), 'Далее') or contains(normalize-space(.), 'Войти') or contains(normalize-space(.), 'Получить код')])[1]",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "b3f19d0c-3b4e-4d7a-9c75-123000003005",
+          "comment": "",
+          "command": "assertText",
+          "target": "xpath=//body",
+          "targets": [],
+          "value": "*почт*"
+        }
+      ]
+    },
+    {
+      "id": "b3f19d0c-3b4e-4d7a-9c75-123000000104",
+      "name": "TC04 choose railway ticket",
+      "commands": [
+        {
+          "id": "b3f19d0c-3b4e-4d7a-9c75-123000004001",
+          "comment": "",
+          "command": "open",
+          "target": "/poezda/rasp_d.php?nnst1=2000000&nnst2=2004000",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "b3f19d0c-3b4e-4d7a-9c75-123000004002",
+          "comment": "",
+          "command": "click",
+          "target": "xpath=(//*[self::a or self::button or @role='button'][contains(normalize-space(.), 'Выбрать') or contains(normalize-space(.), 'Купить') or contains(normalize-space(.), 'Продолжить') or contains(normalize-space(.), 'мест')])[1]",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "b3f19d0c-3b4e-4d7a-9c75-123000004003",
+          "comment": "",
+          "command": "assertText",
+          "target": "xpath=//body",
+          "targets": [],
+          "value": "*билет*"
+        }
+      ]
+    }
+  ],
+  "suites": [
+    {
+      "id": "b3f19d0c-3b4e-4d7a-9c75-123000000201",
+      "name": "Tutu lab3 smoke",
+      "persistSession": false,
+      "parallel": false,
+      "timeout": 300,
+      "tests": [
+        "b3f19d0c-3b4e-4d7a-9c75-123000000101",
+        "b3f19d0c-3b4e-4d7a-9c75-123000000102",
+        "b3f19d0c-3b4e-4d7a-9c75-123000000103",
+        "b3f19d0c-3b4e-4d7a-9c75-123000000104"
+      ]
+    }
+  ],
+  "urls": [
+    "https://www.tutu.ru/"
+  ],
+  "plugins": []
+}
